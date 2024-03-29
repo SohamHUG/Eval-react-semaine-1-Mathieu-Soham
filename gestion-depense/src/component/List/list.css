@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+}
+
+h2 {
+    text-align: center;
+    color: #213547;
+    font-size: 2em;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    list-style: none;
+}
+ul li {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 1em;
+    font-size: 1.2em;
+}
+p {
+    margin: 1em ;
+    font-size: 1.8em;
+}
+
+@media screen and (max-width:1300px) {
+    .nav {
+        justify-content: center;
+    }
+    .nav button {
+        width: 40%;
+        margin: .3em auto;
+    }
+}
